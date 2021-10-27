@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    Font-size: 16px;
+}
+.main{
+    margin-top: 200px;
+    display: grid;
+    justify-content: center;
+}
+
+.top{
+    background-color: white;
+    padding: 28px 65px 28px 45px;
+    width: 536px;
+    height: 150px;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 10px 10px 10px hsl(204, 33%, 88%);
+}
+h3{
+    font-size: 25px;
+    color: hsl(179, 62%, 43%);
+}
+
+.highlight{
+    color: hsl(71, 59%, 46%);
+    font-size: 18px;
+    font-weight: 400;
+}
+.para{
+    color: hsl(218, 22%, 67%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 3px 10px 10px hsl(204, 33%, 88%);
+}
+.left{
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    padding: 30px;
+    width: 268px;
+    height: 220px;
+    border-radius: 0 0 0 8px;
+}
+.abc{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.btn {
+    border-radius: 8px;
+    font-family: 'Karla', sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+    background: #c0df34;
+    border-color: #c0df34;
+    padding: 15px 90px 15px 90px;
+  }
+.s1{
+    font-size: 33px;
+    font-weight: bold;
+}
+.s2{
+    font-weight: 200;
+    color: rgb(230, 230, 230);
+    margin-left: 20px;
+}
+.right{
+    background-color: hsl(179, 51%, 49%);
+    padding: 25px 5px 25px 45px;
+    width: 268px;
+    height: 230px;
+    border-radius: 0 0 8px 0;
+}
+.right h4{
+    color: white;
+}
+.text{
+    color: rgb(238, 238, 238);
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 21.5px;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
